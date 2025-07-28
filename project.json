@@ -1,0 +1,432 @@
+{
+  "schematics": {
+    "58e12900fbed481bafef496a6704cb77": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "1914efaf98c24f18bf7004df967af2dc"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "45119e68879643f9894841b84d261220": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "d6bb3c9cbc38448d9c778d95a71b3c52": {
+      "source": "8bce66af0231474cae2c80f765a15c11|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "CGA0603X5R106K100JT",
+      "version": "1708472028",
+      "type": 2
+    },
+    "25e19d0970c9484ba3877c5ce1d4d40b": {
+      "source": "383d752f5c9243c8a82a054d0337f883|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Drawing-Symbol_A4",
+      "version": "1734001722",
+      "type": 20
+    },
+    "b5d111c41b81440e9723fb189651ee34": {
+      "source": "ce20a80330b0459ebb350772ed09a7fb|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "GMK107B7104KAHT",
+      "version": "1737010559",
+      "type": 2
+    },
+    "7bd36ae2935248f589a9ac1b36bfabca": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "674238212fcd46368c1825708a263dee": {
+      "source": "4eff39f2ef7f44d7a0f9c9645fba922b|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Netport-OUT",
+      "version": "1649575491",
+      "type": 19
+    },
+    "12ac4e9f720841baada5aefa8f396e5c": {
+      "source": "a6168977f0dd4e15b41e9924132c7214|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Embedded Processors & Controllers\",\"Microcontrollers (MCU/MPU/SOC)\"]",
+      "title": "PIC24FJ128GC010T-I/BG",
+      "version": "1684897617",
+      "type": 2
+    },
+    "b8645d5c3390407faf413c58e64c9999": {
+      "source": "b4fc5614febe4d0c966db51b22af788e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-VCC",
+      "version": "1723254107",
+      "type": 18
+    }
+  },
+  "footprints": {
+    "ae2f295c31fd4ad49f78516f7207a224": {
+      "title": "BGA-121_L10.0-W10.0-R11-C11-P0.80-TL_CYUSB3065-BZXC",
+      "source": "19a98b928d194946a51d7677013bbc9c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652425893",
+      "type": 4,
+      "desc": ";TFBGA-121;-;XBGA-121;TFBGA-121(10x10);TFBGA-100;BGA-121;FBGA-121(10x10)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"BGA-121\"]"
+    },
+    "aa721b3581df4b008d445251e57a5b5f": {
+      "title": "C0603",
+      "source": "f499007f726c45dbbd59d7d6a82bc126|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734501471",
+      "type": 4,
+      "desc": ";0603;1206;0805;0201;/;---;-;SMD;C0603;AAAAAA1;c0603;0603封装;Cap;CAP;0604;C0603_L;0603-CAP;1608;0704",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "296557b7607f43dc98c2a3ee60129f1c": {
+      "title": "C0603",
+      "source": "f499007f726c45dbbd59d7d6a82bc126|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734501471",
+      "type": 4,
+      "desc": ";0603;1206;0805;0201;/;---;-;SMD;C0603;AAAAAA1;c0603;0603封装;Cap;CAP;0604;C0603_L;0603-CAP;1608;0704",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    }
+  },
+  "devices": {
+    "29a8b07f02034db08fae7372fcca29a8": {
+      "title": "CGA0603X5R106K100JT",
+      "attributes": {
+        "LCSC Part Name": "10uF ±10% 10V",
+        "Supplier Part": "C6119842",
+        "Manufacturer": "HRE(芯声)",
+        "Manufacturer Part": "CGA0603X5R106K100JT",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d6bb3c9cbc38448d9c778d95a71b3c52",
+        "Designator": "C?",
+        "Footprint": "aa721b3581df4b008d445251e57a5b5f",
+        "3D Model": "624118aa3cc7497086c383c2d72e0852",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "10uF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "10V",
+        "Temperature Coefficient": "X5R",
+        "Name": "={Value}",
+        "Description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:10V Temperature Coefficient:X5R"
+      },
+      "description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:10V Temperature Coefficient:X5R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230817/D04158E585B9DED4D1112DD363755F84.jpg"
+      ],
+      "source": "987126905412434cae0c1c190f3af2fc|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1707265205",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "e357b269898c48c3b3feabede3dea7f4": {
+      "title": "Drawing-Symbol_A4",
+      "attributes": {
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Company": "EasyEDA.com",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "Drawn": "",
+        "Name": "",
+        "@Create Time": "",
+        "@Update Time": "",
+        "Border": "1",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block Position": "3",
+        "Title Block": "1",
+        "@Board Name": "",
+        "Symbol": "25e19d0970c9484ba3877c5ce1d4d40b",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "754952feec9e48d6afd574513e1ca00b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734001722",
+      "custom_tags": ""
+    },
+    "224a4780144043e8bae4bce1ce416a3b": {
+      "title": "GMK107B7104KAHT",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 35V",
+        "Supplier Part": "C385964",
+        "Manufacturer": "TAIYO YUDEN(太诱)",
+        "Manufacturer Part": "GMK107B7104KAHT",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220225/799C51BCBF8C89A221BF0BDF23636E5D.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "b5d111c41b81440e9723fb189651ee34",
+        "Designator": "C?",
+        "Footprint": "aa721b3581df4b008d445251e57a5b5f",
+        "3D Model": "624118aa3cc7497086c383c2d72e0852",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rating: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rating: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230106/54EF262397D50EA32C9E615774CC9562.jpg"
+      ],
+      "source": "efbceb0e99674c84a191669fc0a2e94a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1713321602",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "7ce14fc663bc4612823115aa8907012e": {
+      "title": "GMK107B7104KAHT",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 35V",
+        "Supplier Part": "C385964",
+        "Manufacturer": "TAIYO YUDEN(太诱)",
+        "Manufacturer Part": "GMK107B7104KAHT",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220225/799C51BCBF8C89A221BF0BDF23636E5D.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "b5d111c41b81440e9723fb189651ee34",
+        "Designator": "C?",
+        "Footprint": "296557b7607f43dc98c2a3ee60129f1c",
+        "3D Model": "624118aa3cc7497086c383c2d72e0852",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rating: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rating: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230106/54EF262397D50EA32C9E615774CC9562.jpg"
+      ],
+      "source": "efbceb0e99674c84a191669fc0a2e94a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1713321602",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "e0daa7afe22a4999af83486cd2bb5fcc": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "7bd36ae2935248f589a9ac1b36bfabca",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "0f83ae760588461ba9b8a979d0a30bf8": {
+      "title": "Netport-OUT",
+      "attributes": {
+        "Symbol": "674238212fcd46368c1825708a263dee",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d3f8509c9aa24ff4941c9d84243e9d34|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575496",
+      "custom_tags": "[]"
+    },
+    "6a594a14b57b4b9788e331938c1ed7f2": {
+      "title": "PIC24FJ128GC010T-I/BG",
+      "attributes": {
+        "LCSC Part Name": "PIC24FJ128GC010T-I/BG",
+        "Supplier Part": "C628663",
+        "Manufacturer": "MICROCHIP(美国微芯)",
+        "Manufacturer Part": "PIC24FJ128GC010T-I/BG",
+        "Supplier Footprint": "TFBGA-121",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200628/C624464_5CFE7F2B009E3FA9C53CBB4A7E5C4B6C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "12ac4e9f720841baada5aefa8f396e5c",
+        "Designator": "U?",
+        "Footprint": "ae2f295c31fd4ad49f78516f7207a224",
+        "3D Model": "432295e44c4b4528b89f0610061166be",
+        "3D Model Title": "BGA-121_L10.0-W10.0-H1.1-P0.8",
+        "3D Model Transform": "393.7,393.7,0,0,0,0,0,0,0",
+        "CPU Core": "PIC",
+        "Program Storage Size": "128KB",
+        "GPIO Ports Number": "85",
+        "Operating Voltage Range": "2V~3.6V",
+        "CPU Maximum Speed": "32MHz",
+        "Program Memory Type": "FLASH",
+        "Operating Temperature Range": "-40℃~+85℃",
+        "ADC (Bit)": "12bit；16bit",
+        "DAC (Bit)": "10bit",
+        "PWM (Bit)": "-",
+        "Universal Serial Bus": "有",
+        "Internal Comparator": "-",
+        "Peripheral/Function": "LCD/LED驱动",
+        "communication protocol": "-",
+        "Watchdog": "有",
+        "Real-Time Clock": "-",
+        "Infrared Data Association": "有",
+        "Low-Voltage Detect": "有",
+        "CCP Capture/Compare": "-",
+        "LCD Module": "有",
+        "Secure Digital Input and Output": "-",
+        "Direct Memory Access": "-",
+        "Internal Oscillator": "有",
+        "Name": "={Manufacturer Part}",
+        "Description": "CPU Core:PIC Program Storage Size:128KB GPIO Ports Number:85 Operating Voltage Range:2V~3.6V Operating Voltage Range:2V~3.6V CPU Maximum Speed:32MHz Program Memory Type:FLASH Operating Temperature Range:-40℃~+85℃ Operating Temperature Range:-40℃~+85℃ ADC"
+      },
+      "description": "CPU Core:PIC Program Storage Size:128KB GPIO Ports Number:85 Operating Voltage Range:2V~3.6V Operating Voltage Range:2V~3.6V CPU Maximum Speed:32MHz Program Memory Type:FLASH Operating Temperature Range:-40℃~+85℃ Operating Temperature Range:-40℃~+85℃ ADC",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "5c115d08331d484e874dd5d9e8bc8f53|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660939261",
+      "custom_tags": "[\"Embedded Processors & Controllers\",\"Microcontrollers (MCU/MPU/SOC)\"]"
+    },
+    "890f54bf603c40d1b1d687c5edff9a75": {
+      "title": "Power-VCC",
+      "attributes": {
+        "Global Net Name": "VCC",
+        "Name": "",
+        "Symbol": "b8645d5c3390407faf413c58e64c9999",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "7737efc32ff44ecb8cf68152f3fbd014|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1723254107",
+      "custom_tags": "[]"
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "58e12900fbed481bafef496a6704cb77",
+      "pcb": "45119e68879643f9894841b84d261220"
+    }
+  },
+  "config": {
+    "title": "CFX800",
+    "cbbProject": false,
+    "defaultSheet": "e357b269898c48c3b3feabede3dea7f4",
+    "editorVersion": "2.2.40.8"
+  }
+}
